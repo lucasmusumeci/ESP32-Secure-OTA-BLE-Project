@@ -40,3 +40,4 @@ google-services.json
 *.pcapng
 .DS_Store
 Thumbs.db
+/.metadata/

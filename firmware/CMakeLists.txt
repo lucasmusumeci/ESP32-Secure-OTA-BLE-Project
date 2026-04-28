@@ -4,6 +4,6 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
-set(PROJECT_VER "1.0.2")
+set(PROJECT_VER "1.0.0")
 project(OTA_update VERSION ${PROJECT_VER})
 project(OTA_update)
