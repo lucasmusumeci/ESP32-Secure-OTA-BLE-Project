@@ -1,0 +1,42 @@
+# --- ESP-IDF (Firmware) ---
+build/
+sdkconfig
+sdkconfig.old
+.espressif/
+managed_components/
+dependencies.lock
+
+# --- Eclipse / IDE Specifics ---
+.settings/
+.project
+.cproject
+.buildconfig
+.language-settings.xml
+.clang-format
+.clangd
+
+# --- Android App (Jetpack Compose) ---
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# --- OTA Server & Binaries ---
+*.bin
+*.elf
+*.map
+
+# --- Security & Secrets ---
+*.pem
+*.key
+*.crt
+*.jks
+*.keystore
+google-services.json
+
+# --- System & Logs ---
+*.log
+*.pcapng
+.DS_Store
+Thumbs.db
